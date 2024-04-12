@@ -11,9 +11,11 @@
 
     <a-scene enbedded arjs>
         <a-marker preset="hiro">
-            position="0 0 0"
-            scale="1 1 1"
-            gltf-model="obj/scene.glft"
+            <a-entity
+                position="0 0 0"
+                scale="1 1 1"
+                gltf-model="obj/scene.glft"
+            ></a-entity>
         </a-marker>
         <a-entity camera></a-entity>
     </a-scene>
